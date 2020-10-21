@@ -15,16 +15,16 @@ For convenience, the majority of links are from Adafruit. Most parts are sold by
 - Laser cutter or laser cutting service
 
 ## Code
-The code is hosted on my Github and can be setup using the next steps.
+The code is hosted on my [Github](https://github.com/User-r00/flux) and can be setup using the next steps.
 
 ### Setup the Raspberry Pi
-Image your Raspberry Pi 0 W using the instructions from Raspberry Pi.
+Image your Raspberry Pi 0 W using the [instructions from Raspberry Pi](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md).
 
 ### Connect the Pi to Wi-Fi
-Setup Wi-Fi using the instructions from Raspberry Pi.
+Setup Wi-Fi using the [instructions from Raspberry Pi](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md).
 
 ### Setup SSH
-Setup SSH using the instructions from Raspberry Pi. Once configured, SSH into the Pi.
+Setup SSH using the [instructions from Raspberry Pi](https://www.raspberrypi.org/documentation/remote-access/ssh/). Once configured, SSH into the Pi.
 
 ### Download the code to the Pi
 Navigate to where you want the code to live and run.

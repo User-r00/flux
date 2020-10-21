@@ -36,19 +36,19 @@ In main.py, change spaceboyr00 to your TikTok username.
 
 `USERNAME = 'spaceboyr00'`
 
-###Set the script to run at boot.
+### Set the script to run at boot.
 Add the following code to /etc/rc.local at the end before exit 0.
 
 `su - pi -c "/usr/bin/screen -dmS flux bash -c 'python3 /home/pi/main.py; exec bash'"`
 
 ## Enclosure
-The enclosure is made of three 3D printed pieces; The main body, a front lid, and a stand to keep it all upright. The STLs are available from the GitHub repo. If you do not have a 3D printer, check your local hackerspace or public library. If these are not an option, there are a number of 3D printing services online as well.
+The enclosure is made of three 3D printed pieces; The main body, a front lid, and a stand to keep it all upright. The STLs are available here in the repo under the 3D Files folder. If you do not have a 3D printer, check your local hackerspace or public library. If these are not an option, there are a number of 3D printing services online as well.
 
 ## Diffusion Panel
-I used a local laser service to cut a 3mm sheet of frosted white acrylic. This goes inside the back of the lid and diffuses the NeoPixel light. If you do not have access to a laser, use the logo_print file and cut it out of acrylic by hand.
+The diffusion panel is a sheet of frosted acrylic that spreads out the light from the NeoPixel strip. I used a local laser service to cut a 3mm sheet of frosted white acrylic. I have included logo_laser.eps for you to use on a laser. If you do not have access to a laser, use the logo_print.jpg file and cut it out of acrylic by hand.
 
 ## Wire it up
-5V and Gnd from the Pi to the respective spots on the NeoPixel strip. Data from the NeoPixel DI pin to pin 26 on the Pi. The Micro USB to DC barrel adapter connects to the USB port on the Pi.
+See Fritzing/flux_fritzing.jpg for an overview. 5V and gnd from the Pi to the respective spots on the NeoPixel strip. Data from the NeoPixel DI pin to pin 26 on the Pi. The Micro USB to DC barrel adapter connects to the USB port on the Pi.
 
 ## Final Assembly
 The Pi gets screwed into the two bosses on the inside of the enclosure body. The NeoPixel strip gets mounted around the inside lip of the lid. The acrylic gets attached from the back of the lid. Finally, the barrel adapter seats into the hole on the enclosure.

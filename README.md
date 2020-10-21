@@ -28,14 +28,17 @@ Setup SSH using the [instructions from Raspberry Pi](https://www.raspberrypi.org
 
 ### Download the code to the Pi
 Navigate to where you want the code to live and run.
+
 `git clone https://github.com/User-r00/flux.git`
 
 ### Configure the script
 In main.py, change spaceboyr00 to your TikTok username.
+
 `USERNAME = 'spaceboyr00'`
 
 ###Set the script to run at boot.
 Add the following code to /etc/rc.local at the end before exit 0.
+
 `su - pi -c "/usr/bin/screen -dmS flux bash -c 'python3 /home/pi/main.py; exec bash'"`
 
 ## Enclosure

@@ -3,11 +3,11 @@
 ## Parts
 For convenience, the majority of links are from Adafruit. Most parts are sold by DigiKey and various other sellers however.
 
-[Raspberry Pi 0 W](https://www.adafruit.com/product/3708)
-[Micro USB to barrel jack adapter](https://www.adafruit.com/product/2727)
-[NeoPixel LED strip](https://www.adafruit.com/product/2841)
-[Switchable power supply](https://www.adafruit.com/product/1448)
-[MicroSD Card](https://www.amazon.com/gp/product/B07WW1H346/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+- [Raspberry Pi 0 W](https://www.adafruit.com/product/3708)
+- [Micro USB to barrel jack adapter](https://www.adafruit.com/product/2727)
+- [NeoPixel LED strip](https://www.adafruit.com/product/2841)
+- [Switchable power supply](https://www.adafruit.com/product/1448)
+- [MicroSD Card](https://www.amazon.com/gp/product/B07WW1H346/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 
 ## Tools
 - Soldering tools

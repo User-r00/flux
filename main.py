@@ -5,6 +5,8 @@
 
 from time import sleep
 
+import board
+import neopixel
 from TikTokAPI import TikTokAPI
 
 
@@ -14,6 +16,12 @@ USERNAME = 'spaceboyr00'
 # Create the TikTok api object.
 api = TikTokAPI()
 
+
+pixels = neopixel.NeoPixel(board.D26,
+                           120,
+                           auto_write=True,
+                           brightness=0.2,
+                           pixel_order=neopixel.RGB)
 
 def get_user_follower_count(username):
     '''Get user follower count by name.'''
@@ -30,6 +38,7 @@ follower_count = get_user_follower_count(USERNAME)
 
 
 while True:
+    pixels.fill(0xFF00FF)
     # Store the previous follower count.
     old_follower_count = follower_count
 
